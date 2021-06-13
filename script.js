@@ -5,7 +5,7 @@ function display()
     var array=[];
     for(r=i;r<=n;r++)
     {
-        if(r%400==0||r%4==0)
+        if(((r % 4 == 0) && (r % 100!= 0)) || (r%400 == 0))
         {
             var a=array.push(r)
         }
