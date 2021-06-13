@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(188, 133, 199);
+}
+#container{
+    background:linear-gradient(135deg,rgb(71, 245, 71),rgb(243, 243, 54));
+    text-align: center;
+    margin: 300px;
+    padding: 100px;
+    color: rgb(22, 36, 235);
+    
+    font-size: 1.25em;
+}
+input,button{
+    border-radius: 7px;
+    height: 22px;
+}
+button{
+    width: 150px;
+    font-size: 1em;
+    height: auto;
+    margin-top: 50px;
+    padding:10px ;
+    color: white;
+    background:linear-gradient(150deg,rgb(238, 54, 54),rgb(236, 90, 229));
+}
